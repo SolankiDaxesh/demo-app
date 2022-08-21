@@ -1,0 +1,26 @@
+[
+  {
+      "id": 1,
+      "name": "House",
+      "title": "3 bedroom house",
+      "price": 450000
+  },
+  {
+      "id": 2,
+      "name": "Apartment",
+      "title": "3 bedroom apartment",
+      "price": 350000
+  },
+  {
+      "id": 3,
+      "name": "Villa",
+      "title": "3 bedroom villa",
+      "price": 650000
+  },
+  {
+      "id": 4,
+      "name": "Palace",
+      "title": "3 bedroom palace",
+      "price": 950000
+  }
+]

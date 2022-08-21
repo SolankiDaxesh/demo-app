@@ -1,11 +1,21 @@
 <div class="row">
-  <div class="shadow-lg col-sm-4 p-3">
-    <div class="card ">
-      <img class="imgProp" src="\assets\images\house1.jpg" alt="" />
+  <div class="">
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img class="card-img-top" src="\assets\images\house1.jpg" alt="" />
+        <ul class="list-inline text-center member-icon animate">
+          <li class="list-inline-item">
+            <button class="btn btn-success">Edit</button>
+          </li>
+          <li class="list-inline-item">
+            <button class="btn btn-danger">Contact</button>
+          </li>
+        </ul>
+      </div>
       <div class="card-body">
-        <h1>{{ Property.name }}</h1>
-        <h2>{{ Property.title }}</h2>
-        <h3>{{ Property.price }}</h3>
+        <h3>{{ property.name }}</h3>
+        <h3>{{ property.title }}</h3>
+        <h3>{{ property.price }}</h3>
       </div>
     </div>
   </div>
